@@ -43,7 +43,6 @@ def surf_Tube(rad):
 # height is height of center of cone over flat surface
 # hmax is max height of fluid in well
 # alpha in radians
-# OUTPUT in microlitres 
 def volume_24well(r_i,alpha,hmax):
     from scipy.integrate import quad
     
