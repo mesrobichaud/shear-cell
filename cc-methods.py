@@ -74,7 +74,7 @@ def disk_Shear(omega,r,h):
 # omega(r)/h
 # omega is given in RPM for ease of use
 # r and h must be in same units
-# SDM
+# SDM stepped disk model
 # h1 is inner
 # ratio: of surface areas, zone 1 : zone 2
 def SDM_Shear(omega,r,h1,h2,frac):
